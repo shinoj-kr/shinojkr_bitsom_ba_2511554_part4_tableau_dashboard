@@ -149,3 +149,197 @@ Interactive filters and regional selection actions enable users to perform deepe
 # Conclusion
 
 The dashboard follows fundamental visualization design principles by selecting appropriate chart types, maintaining a clean and consistent layout, providing meaningful interactions, and presenting business insights in an easily understandable format. The design supports executive decision-making through clear visual communication and interactive exploration.
+
+# Task 10: Chart Selection Justification
+
+## 1. KPI Cards (Total Sales, Total Profit, Total Orders)
+
+### Question the chart answers
+What is the overall business performance at a glance?
+
+### Why the chart type is appropriate
+KPI cards provide an immediate summary of the most important business metrics without requiring detailed analysis.
+
+### Fields used
+- Measure: Sales, Profit, Order ID (Count)
+- Labels: KPI values
+- Filters: Region, Category, Customer Segment
+
+### Design principle applied
+- Clear visual hierarchy
+- Minimal clutter
+- Large font for quick executive reading
+
+### Mistake avoided
+Avoided using charts for single values, which would unnecessarily consume dashboard space.
+
+---
+
+## 2. Regional Performance View (Bar Chart)
+
+### Question the chart answers
+Which region generates the highest sales?
+
+### Why the chart type is appropriate
+Bar charts are ideal for comparing values across discrete categories such as regions.
+
+### Fields used
+- X-axis: Region
+- Y-axis: Sales
+- Color: Sales intensity
+- Labels: Total Sales
+- Filter Action: Region selection filters the dashboard
+
+### Design principle applied
+- Easy comparison
+- Consistent color palette
+- Direct data labels
+
+### Mistake avoided
+Avoided pie charts because they make comparisons between regions less accurate.
+
+---
+
+## 3. Monthly Sales Trend (Line Chart)
+
+### Question the chart answers
+How have sales changed over time?
+
+### Why the chart type is appropriate
+A line chart clearly displays trends and seasonal changes across months.
+
+### Fields used
+- X-axis: Order Month
+- Y-axis: Sales
+- Labels: None
+- Filters: Region, Category, Customer Segment
+
+### Design principle applied
+- Continuous timeline
+- Minimal visual clutter
+- Consistent scaling
+
+### Mistake avoided
+Avoided bar charts because they are less effective for showing continuous trends.
+
+---
+
+## 4. Category Profitability View (Horizontal Bar Chart)
+
+### Question the chart answers
+Which categories and sub-categories generate the highest profit?
+
+### Why the chart type is appropriate
+Horizontal bars make long category names readable while allowing easy comparison of profit values.
+
+### Fields used
+- Rows: Category, Sub-Category
+- Columns: Profit
+- Labels: Profit values
+- Color: Single consistent color
+
+### Design principle applied
+- Descending sorting
+- Clear labels
+- Readable category names
+
+### Mistake avoided
+Avoided stacked charts that would make individual sub-category comparisons difficult.
+
+---
+
+## 5. Customer Segment View (Bar Chart)
+
+### Question the chart answers
+Which customer segment contributes the most sales?
+
+### Why the chart type is appropriate
+A vertical bar chart allows quick comparison between customer segments.
+
+### Fields used
+- X-axis: Customer Segment
+- Y-axis: Sales
+- Labels: Sales values
+- Color: Sales intensity
+
+### Design principle applied
+- Simple comparison
+- Consistent formatting
+- Direct labeling
+
+### Mistake avoided
+Avoided pie charts because differences between segment sales are easier to compare with bars.
+
+---
+
+## 6. Shipping Performance View (Stacked Bar Chart)
+
+### Question the chart answers
+How do different shipping modes perform in terms of on-time and delayed deliveries?
+
+### Why the chart type is appropriate
+A stacked bar chart shows both total shipment volume and the breakdown of delayed versus on-time deliveries.
+
+### Fields used
+- X-axis: Ship Mode
+- Y-axis: Order Count
+- Color:
+  - Blue = On Time
+  - Red = Delayed
+- Labels: Shipment counts
+
+### Design principle applied
+- Clear color distinction
+- Easy comparison
+- Supports operational analysis
+
+### Mistake avoided
+Avoided grouped bars because stacked bars better display both totals and delivery status simultaneously.
+
+---
+
+## 7. Discount vs Profit (Scatter Plot)
+
+### Question the chart answers
+How does discount affect profitability?
+
+### Why the chart type is appropriate
+Scatter plots effectively show relationships between two continuous variables and reveal patterns or outliers.
+
+### Fields used
+- X-axis: Discount
+- Y-axis: Profit
+- Color: Category
+- Marks: Individual transactions
+
+### Design principle applied
+- Shows distribution
+- Highlights outliers
+- Avoids aggregation bias
+
+### Mistake avoided
+Avoided line charts because there is no sequential relationship between discount and profit.
+
+---
+
+## 8. Return Rate by Category (Horizontal Bar Chart)
+
+### Question the chart answers
+Which product category has the highest return rate?
+
+### Why the chart type is appropriate
+Horizontal bars provide an easy comparison of return rates across categories.
+
+### Fields used
+- Rows: Category
+- Columns: Return Rate
+- Labels: Percentage values
+- Color: Single consistent color
+
+### Design principle applied
+- Sorted values
+- Percentage labels
+- Simple comparison
+
+### Mistake avoided
+Avoided pie charts because percentage differences are easier to interpret using bar lengths.
