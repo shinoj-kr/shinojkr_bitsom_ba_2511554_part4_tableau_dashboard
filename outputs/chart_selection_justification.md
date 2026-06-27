@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Executive Sales Performance Dashboard was designed to provide business stakeholders with a concise overview of sales performance, profitability, customer behavior, shipping efficiency, and return analysis. The dashboard follows visualization best practices by using appropriate chart types, maintaining a clear visual hierarchy, minimizing clutter, and providing interactive filtering for business exploration.
+The Executive Sales Performance Dashboard is designed to provide business stakeholders with a concise overview of sales performance, profitability, customer behavior, shipping efficiency, and return analysis. The dashboard follows visualization best practices by using appropriate chart types, maintaining a clear visual hierarchy, minimizing clutter, and providing interactive filtering for business exploration.
 
 ---
 
