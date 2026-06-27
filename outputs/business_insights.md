@@ -15,7 +15,6 @@ These calculated fields are used throughout the Tableau dashboard to create KPIs
 
 # Task 8: Business Insights
 
-
 ## Insight 1: Sales Trend
 
 **Observation:**  
