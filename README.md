@@ -53,8 +53,8 @@ The dataset `dashboard_sales_data.xlsx` was successfully loaded into Tableau. Th
 
 ### Assumptions
 
-- The dataset was assumed to be analysis-ready without additional data cleaning.
-- Order Date and Ship Date were correctly recognized as Date fields by Tableau.
-- Geographic fields (State and City) were assumed to contain valid location values.
+- The dataset is assumed to be analysis-ready without additional data cleaning.
+- Order Date and Ship Date are correctly recognized as Date fields by Tableau.
+- Geographic fields (State and City) are assumed to contain valid location values.
 - Return Flag was treated as a binary indicator where values represent returned and non-returned orders.
 - All numerical fields were assumed to be suitable for aggregation and business analysis.
