@@ -46,14 +46,14 @@ To improve readability:
 - Unnecessary grid lines were removed.
 - Only important data labels are displayed.
 - Consistent spacing was maintained between charts.
-- White background was used to reduce distractions.
+- White background is used to reduce distractions.
 - Only essential axis titles and labels were retained.
 
 ---
 
 # 4. Consistent Color Usage
 
-A consistent blue color palette was used throughout the dashboard to represent business performance.
+A consistent blue color palette is used throughout the dashboard to represent business performance.
 
 - Darker blue highlights higher values.
 - Lighter blue represents comparatively lower values.
@@ -94,7 +94,7 @@ These titles clearly communicate the purpose of each chart.
 
 # 7. Appropriate Sorting
 
-Charts were sorted to improve comparison and insight generation.
+Charts are sorted to improve comparison and insight generation.
 
 - Regional sales are presented for easy comparison.
 - Category profitability is organized to highlight higher-performing products.
