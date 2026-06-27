@@ -58,6 +58,7 @@ The dataset `dashboard_sales_data.xlsx` was successfully loaded into Tableau. Th
 - Geographic fields (State and City) are assumed to contain valid location values.
 - Return Flag was treated as a binary indicator where values represent returned and non-returned orders.
 - All numerical fields were assumed to be suitable for aggregation and business analysis.
+  
 
 # Business Problem Summary
 
